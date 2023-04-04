@@ -1,6 +1,4 @@
 # vimexx-directadmin-laravel-symlink
-
-
 #web.php
 ```
 Route::get('/link-storage', function () {
@@ -11,8 +9,7 @@ Route::get('/link-storage', function () {
 
 ```
 
-
-# Cpanel Hosting 
+# Cpanel Hosting Symlink for Laravel Application
 #### Create a symlink.php file then write bottom code after that run the symlink.php file.
 ```
 <?php 
