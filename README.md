@@ -10,3 +10,13 @@ Route::get('/link-storage', function () {
 });
 
 ```
+
+
+# Cpanel Hosting 
+#### Create a symlink.php file then write bottom code after that run the symlink.php file.
+```
+<?php 
+symlink('/home/backoffice/storage/app/public', '/home/public_html/storage'); 
+echo 'Symlink process successfully completed';
+?>
+```
